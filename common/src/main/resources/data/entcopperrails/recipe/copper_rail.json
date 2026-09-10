@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": { "item": "minecraft:copper_ingot" },
+    "#": { "item": "minecraft:stick" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": { "id": "entcopperrails:copper_rail", "count": 6 }
+}

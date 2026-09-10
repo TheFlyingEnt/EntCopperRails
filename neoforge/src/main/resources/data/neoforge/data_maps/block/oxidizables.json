@@ -1,0 +1,7 @@
+{
+  "values": {
+    "entcopperrails:copper_rail":           { "next_oxidation_stage": "entcopperrails:exposed_copper_rail" },
+    "entcopperrails:exposed_copper_rail":   { "next_oxidation_stage": "entcopperrails:weathered_copper_rail" },
+    "entcopperrails:weathered_copper_rail": { "next_oxidation_stage": "entcopperrails:oxidized_copper_rail" }
+  }
+}

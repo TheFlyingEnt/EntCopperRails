@@ -1,0 +1,8 @@
+{
+  "values": {
+    "entcopperrails:copper_rail":           { "waxed": "entcopperrails:waxed_copper_rail" },
+    "entcopperrails:exposed_copper_rail":   { "waxed": "entcopperrails:waxed_exposed_copper_rail" },
+    "entcopperrails:weathered_copper_rail": { "waxed": "entcopperrails:waxed_weathered_copper_rail" },
+    "entcopperrails:oxidized_copper_rail":  { "waxed": "entcopperrails:waxed_oxidized_copper_rail" }
+  }
+}

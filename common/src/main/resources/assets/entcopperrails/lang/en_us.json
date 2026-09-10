@@ -1,0 +1,18 @@
+{
+  "block.entcopperrails.copper_rail": "Copper Rail",
+  "block.entcopperrails.exposed_copper_rail": "Exposed Copper Rail",
+  "block.entcopperrails.weathered_copper_rail": "Weathered Copper Rail",
+  "block.entcopperrails.oxidized_copper_rail": "Oxidized Copper Rail",
+  "block.entcopperrails.waxed_copper_rail": "Waxed Copper Rail",
+  "block.entcopperrails.waxed_exposed_copper_rail": "Waxed Exposed Copper Rail",
+  "block.entcopperrails.waxed_weathered_copper_rail": "Waxed Weathered Copper Rail",
+  "block.entcopperrails.waxed_oxidized_copper_rail": "Waxed Oxidized Copper Rail",
+  "item.entcopperrails.copper_rail": "Copper Rail",
+  "item.entcopperrails.exposed_copper_rail": "Exposed Copper Rail",
+  "item.entcopperrails.weathered_copper_rail": "Weathered Copper Rail",
+  "item.entcopperrails.oxidized_copper_rail": "Oxidized Copper Rail",
+  "item.entcopperrails.waxed_copper_rail": "Waxed Copper Rail",
+  "item.entcopperrails.waxed_exposed_copper_rail": "Waxed Exposed Copper Rail",
+  "item.entcopperrails.waxed_weathered_copper_rail": "Waxed Weathered Copper Rail",
+  "item.entcopperrails.waxed_oxidized_copper_rail": "Waxed Oxidized Copper Rail"
+}
