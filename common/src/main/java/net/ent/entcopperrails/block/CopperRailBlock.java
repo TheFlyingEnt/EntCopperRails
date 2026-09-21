@@ -4,9 +4,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
-import com.mojang.serialization.MapCodec;
-import com.mojang.serialization.codecs.RecordCodecBuilder;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
@@ -30,12 +27,6 @@ public class CopperRailBlock extends BaseRailBlock implements WeatheringCopper {
     public static final EnumProperty<RailShape> SHAPE = BlockStateProperties.RAIL_SHAPE_STRAIGHT;
     public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-
-    public static final MapCodec<CopperRailBlock> CODEC = RecordCodecBuilder.mapCodec(instance ->
-            instance.group(
-                    WeatheringCopper.WeatherState.CODEC.fieldOf("weathering_state").forGetter(CopperRailBlock::getAge),
-                    propertiesCodec()
-            ).apply(instance, CopperRailBlock::new));
 
     private final WeatheringCopper.WeatherState weatherState;
 
@@ -198,10 +189,5 @@ public class CopperRailBlock extends BaseRailBlock implements WeatheringCopper {
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(SHAPE, POWERED, WATERLOGGED);
-    }
-
-    @Override
-    protected MapCodec<? extends BaseRailBlock> codec() {
-        return CODEC;
     }
 }
