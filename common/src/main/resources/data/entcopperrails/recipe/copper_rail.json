@@ -7,9 +7,9 @@
     "XRX"
   ],
   "key": {
-    "X": { "item": "minecraft:copper_ingot" },
-    "#": { "item": "minecraft:stick" },
-    "R": { "item": "minecraft:redstone" }
+    "X": "minecraft:copper_ingot",
+    "#": "minecraft:stick",
+    "R": "minecraft:redstone"
   },
   "result": { "id": "entcopperrails:copper_rail", "count": 6 }
 }
